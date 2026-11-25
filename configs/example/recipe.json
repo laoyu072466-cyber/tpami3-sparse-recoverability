@@ -1,0 +1,15 @@
+{
+  "state_width": 6,
+  "seed": 42,
+  "view_denominator": 4,
+  "arm": "C1",
+  "training": {
+    "batch_pairs": 32,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "clip_norm": 1.0,
+    "max_epochs": 5,
+    "patience": 2,
+    "consistency_weight": 0.1
+  }
+}
